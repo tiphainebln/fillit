@@ -1,0 +1,12 @@
+- On place nos pieces en haut a gauche de la map, en commencant par la premiere
+piece et en les deplacant de gauche a droite et de haut en bas jusqu'a leur 
+trouver une place sur la map.
+
+- Si une fois arrive sur \0 de la map, la piece n'a toujours pas pu trouver de 
+place dans le tableau, alors on fait bouger la premiere piece de notre liste, et 
+on reessaye.
+
+- Si une fois la premiere piece sur \0, on a pas pu trouver de place pour toutes 
+les pieces, alors on agrandi le tableau et on retabli l'index de recherche a 0.
+
+- La premiere solution trouvee est la bonne
